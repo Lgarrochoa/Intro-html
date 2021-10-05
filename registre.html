@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registre</title>
+</head>
+<body>
+    <h1>Exercici, formulari de registre</h1>
+    <form action="https://stoic-minsky-e8c028.netlify.app/registre.html" method="get">
+        <div>
+        <label>Nom:</label>
+        <input type="text" name="Nom" id="Nom" required>
+        <label>Llinatges:</label>
+        <input type="text" name="Llinatges" id="Llinatges" required>
+        </div>
+        <div>
+        <label>Home:</label>
+        <input type="radio" name="Home" id="Home">
+        <label>Dona:</label>
+        <input type="radio" name="Home" id="Home">
+        <label>Altre:</label>
+        <input type="radio" name="Home" id="Home">
+        </div>
+        <div>
+        <label>Email:</label>
+        <input type="email" placeholder="El teu Email" name="Email" id="Email" required>
+        <label>Contrasenya:</label>
+        <input type="password" name="Contrasenya" id="Contrasenya" minlenght="5" maxlength="10" required>
+        </div>
+        <div>
+        <label>Data de Naixement:</label>
+        <input type="date" name="Data" id="Data" required>
+        </div>
+        <div>
+        <label>Estic d'acord amb els termes i condicions</label>
+        <input type="checkbox" name="Termes" id="Termes" required>
+        </div>
+        <div>
+        <input type="submit" value="Submit" name="Submit" id="Submit">
+        </div>
+    </form>
+</body>
+</html>
