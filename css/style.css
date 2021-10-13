@@ -1,0 +1,46 @@
+table{
+    border-spacing: 0px;
+}
+td{
+   text-align: center; 
+   font-family: sans-serif;
+   border-color:gray;
+}
+th{
+    border-color:yellow;
+    
+}
+.dia{
+    background-color: green;
+    font-family: Verdana,sans-serif;
+}
+.pati{
+    background-color: blueviolet;
+    color:ivory
+}
+.hora{
+    background-color: chocolate;
+}
+.aplicacions{
+    background-color: crimson;
+    color:lawngreen
+}
+.serveis{
+    background-color: cyan;
+    color: red;
+}
+.seguretat{
+    background-color: orange;
+     color: blue;
+}
+.eie{
+    background-color: purple;
+    color:lightseagreen
+}
+.sistemes{
+    background-color: greenyellow;
+    color:palevioletred
+}
+.title{
+    background-color: blue;
+}
