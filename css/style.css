@@ -10,13 +10,13 @@
     display: inline-block;
 }
 #menu ul li a{
-    color: magenta;
+    color: purple;
     display: block;
     padding: 10px 50px;
     text-decoration: none;    
 }
 #menu ul li a:hover{
-    background-color: darkblue;
+    background-color: skyblue;
 }
 #seleccion{
     background-color: lightskyblue;
