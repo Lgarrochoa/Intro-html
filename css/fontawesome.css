@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    display: flex;
+    padding: 10px 0;
+    background-color: blue;
+    width: 70%;
+    margin: 0 auto;
+    justify-content: space-around;
+}
+.container div{
+ width: 15%;
+ background-color: rgba(128, 0, 128, 0.7);
+ text-align: center;   
+ border-radius: 10px;
+ padding: 10px 0;
+}
+.container div:hover{
+    cursor: pointer;
+    background-color: rgba(121, 35, 121, 1);   
+   }
